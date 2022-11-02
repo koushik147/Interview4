@@ -1,3 +1,5 @@
+#Time_Complexity : O(len(wordsDict))
+#Space_Complexity : O(max(times(word1),times(word2)))
 class Solution:
     def shortestWordDistance(self, wordsDict: List[str], word1: str, word2: str) -> int:
         
